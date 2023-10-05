@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background: #000;
+}
+.hero{
+    background: #000;
+    min-height: 100vh;
+    width: 100%;
+    color:#fff;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .menu-img{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: black;
+}
+nav .logo{
+    width:60px;
+    cursor: pointer;
+    background-color:  #000;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+     }
+     nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0 20px;
+     }
+     nav ul li a{
+        text-decoration: none;
+        color: #fff;
+
+     }
+     button{
+        background: greenyellow;
+        height: 30px;
+        width:60px;
+        border-radius: 20px;
+        border:0;
+        outline: 0;
+        cursor: pointer;
+     }
+ button span{
+        display: block;
+        background: rgb(23, 150, 201);
+        height: 26px;
+        width:26px;
+        border-radius: 50%;
+        margin-left:2px ;
+        transition: background 0.5s,margin-left 0.5s;
+ }
+     .lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    width: 200px;
+    background-color: #1d2026;
+
+}
+.lamp{
+    width: 100%;
+}
+.light{
+    position: absolute;
+    top:97%;
+    left:50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s ;
+}
+.text-container{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+
+}
+.text-container h1{
+    font-size: 80px;
+    font-weight: 400;
+
+}
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding:  14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius:30px ;
+   
+
+}
+.control{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.control .line{
+    width: 250px;
+    height:4px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+}
+.control .line span{
+    width: 50%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+    
+}
+.active{
+    background: blueviolet;
+
+}
+.active span{
+    background: #fff;
+    margin-left:31px ;
+}
+.on {
+    opacity: 1;
+}
+.Abi{
+  position: absolute;
+   max-width: 100px;
+    bottom:-15px;
+    left: -20px;
+    margin-left: 350px;
+    opacity: -1;
+   
+}
+.select {
+    opacity: 1;
+}
